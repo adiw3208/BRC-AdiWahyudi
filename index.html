@@ -22,10 +22,13 @@
     <!-- Navbar -->
     <header>
       <nav
-        class="navbar navbar-expand-md navbar-light bg-light shadow sticky-top"
+        class="navbar navbar-expand-md navbar-dark bg-dark shadow sticky-top"
       >
         <div class="container">
-          <a href="/" class="navbar-brand"><div class="logo"></div></a>
+          <a href="/" class="navbar-brand"
+            ><div class="logo">
+              <img src="./img/logo-binar.png" class="logo" /></div
+          ></a>
           <button
             class="navbar-toggler"
             type="button"
@@ -36,7 +39,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div
-            class="collapse navbar-collapse bg-light navbar-light"
+            class="collapse navbar-collapse bg-dark navbar-dark p-2 rounded"
             id="navbarNavAltMarkup"
           >
             <ul class="navbar-nav ms-auto">
@@ -53,7 +56,11 @@
                 <a href="#faq" class="nav-link">FAQ</a>
               </li>
               <li class="nav-item mx-2">
-                <a href="#" class="nav-link __register px-4">Register</a>
+                <a
+                  href="#"
+                  class="nav-link __register px-4 text-dark text-center"
+                  >Register</a
+                >
               </li>
             </ul>
           </div>
@@ -73,7 +80,10 @@
               kualitas terbaik dengan harga terjangkau. Selalu siap melayani
               kebutuhanmu untuk sewa mobil selama 24 jam.
             </p>
-            <button class="btn btn-success btn-lg">Mulai Sewa Mobil</button>
+            <a href="#" class="shadow-lg"
+              ><span data-attr="Sewa">Sewa</span
+              ><span data-attr="Sekarang">Sekarang</span></a
+            >
           </div>
           <div class="col my-5">
             <img
@@ -151,14 +161,14 @@
         <p>Mengapa harus pilih Binar Car Rental?</p>
         <div class="row">
           <!-- item 1 -->
-          <div class="col-md-4 col-xl-3">
+          <div class="col-md-6 col-xl-3">
             <div class="card bg-c-blue order-card">
               <div class="card-block">
                 <span class="__wuIcon bg-warning"
                   ><i class="fa fa-thumbs-o-up" aria-hidden="true"></i
                 ></span>
                 <h6 class="fw-bold mt-3">Mobil Lengkap</h6>
-                <p class="m-b-0">
+                <p class="m-b-0 text-start">
                   Tersedia banyak pilihan mobil, kondisi masih baru, bersih dan
                   terawat
                 </p>
@@ -166,14 +176,14 @@
             </div>
           </div>
           <!-- item2 -->
-          <div class="col-md-4 col-xl-3">
+          <div class="col-md-6 col-xl-3">
             <div class="card bg-c-green order-card">
               <div class="card-block">
                 <span class="__wuIcon bg-danger"
                   ><i class="fa fa-tag" aria-hidden="true"></i
                 ></span>
                 <h6 class="fw-bold mt-3">Mobil Lengkap</h6>
-                <p class="m-b-0">
+                <p class="m-b-0 text-start">
                   Harga murah dan bersaing, bisa bandingkan harga kami dengan
                   rental mobil lain
                 </p>
@@ -181,14 +191,14 @@
             </div>
           </div>
           <!-- item3 -->
-          <div class="col-md-4 col-xl-3">
+          <div class="col-md-6 col-xl-3">
             <div class="card bg-c-yellow order-card">
               <div class="card-block">
                 <span class="__wuIcon bg-primary"
                   ><i class="fa fa-clock-o" aria-hidden="true"></i
                 ></span>
                 <h6 class="fw-bold mt-3">Layanan 24 Jam</h6>
-                <p class="m-b-0">
+                <p class="m-b-0 text-start">
                   Siap melayani kebutuhan Anda selama 24 jam nonstop. Kami juga
                   tersedia di akhir minggu
                 </p>
@@ -196,14 +206,14 @@
             </div>
           </div>
           <!-- item4 -->
-          <div class="col-md-4 col-xl-3">
+          <div class="col-md-6 col-xl-3">
             <div class="card bg-c-pink order-card">
               <div class="card-block">
                 <span class="__wuIcon bg-c-green"
                   ><i class="fa fa-trophy" aria-hidden="true"></i
                 ></span>
                 <h6 class="fw-bold mt-3">Sopir Profesional</h6>
-                <p class="m-b-0">
+                <p class="m-b-0 text-start">
                   Sopir yang profesional, berpengalaman, jujur, ramah dan selalu
                   tepat waktu
                 </p>
@@ -295,7 +305,7 @@
             <div class="carousel-inner">
               <!-- tester1 -->
               <div class="carousel-item active">
-                <div class="card shadow-sm bg-secondary bg-opacity-25">
+                <div class="card __tmCard">
                   <div class="d-flex d-xs-block d-sm-block d-md-flex p-5">
                     <div class="card-img mx-3">
                       <img
@@ -344,7 +354,7 @@
               <!-- end tester1 -->
               <!-- tester2 -->
               <div class="carousel-item">
-                <div class="card shadow bg-secondary bg-opacity-25">
+                <div class="card shadow __tmCard">
                   <div class="d-flex d-xs-block d-sm-block d-md-flex p-5">
                     <div class="card-img mx-3">
                       <img
@@ -392,7 +402,7 @@
               <!-- end tester2 -->
               <!-- tester3 -->
               <div class="carousel-item">
-                <div class="card shadow bg-secondary bg-opacity-25">
+                <div class="card shadow __tmCard">
                   <div class="d-flex d-xs-block d-sm-block d-md-flex p-5">
                     <div class="card-img mx-3">
                       <img
@@ -441,7 +451,7 @@
               <!-- end tester3 -->
               <!-- tester4 -->
               <div class="carousel-item">
-                <div class="card shadow bg-secondary bg-opacity-25">
+                <div class="card shadow __tmCard">
                   <div class="d-flex d-xs-block d-sm-block d-md-flex p-5">
                     <div class="card-img mx-3">
                       <img
@@ -490,7 +500,7 @@
               <!-- end tester4 -->
               <!-- tester5 -->
               <div class="carousel-item">
-                <div class="card shadow bg-secondary bg-opacity-25">
+                <div class="card shadow __tmCard">
                   <div class="d-flex d-xs-block d-sm-block d-md-flex p-5">
                     <div class="card-img mx-3">
                       <img
@@ -539,7 +549,7 @@
               <!-- end tester5 -->
               <!-- tester6 -->
               <div class="carousel-item">
-                <div class="card shadow bg-secondary bg-opacity-25">
+                <div class="card shadow __tmCard">
                   <div class="d-flex d-xs-block d-sm-block d-md-flex p-5">
                     <div class="card-img mx-3">
                       <img
@@ -587,7 +597,7 @@
               <!-- end tester6 -->
               <!-- tester7 -->
               <div class="carousel-item">
-                <div class="card shadow bg-secondary bg-opacity-25">
+                <div class="card shadow __tmCard">
                   <div class="d-flex d-xs-block d-sm-block d-md-flex p-5">
                     <div class="card-img mx-3">
                       <img
@@ -636,7 +646,7 @@
               <!-- end tester7 -->
               <!-- tester8 -->
               <div class="carousel-item">
-                <div class="card shadow bg-secondary bg-opacity-25">
+                <div class="card shadow __tmCard">
                   <div class="d-flex d-xs-block d-sm-block d-md-flex p-5">
                     <div class="card-img mx-3">
                       <img
@@ -685,7 +695,7 @@
               <!-- end tester8 -->
               <!-- tester9 -->
               <div class="carousel-item">
-                <div class="card shadow bg-secondary bg-opacity-25">
+                <div class="card shadow __tmCard">
                   <div class="d-flex d-xs-block d-sm-block d-md-flex p-5">
                     <div class="card-img mx-3">
                       <img
@@ -774,7 +784,10 @@
               accusantium fugiat voluptatibus perspiciatis? Eveniet
               necessitatibus cupiditate recusandae dolorum maxime minus sunt.
             </p>
-            <a href="#" class="btn btn-success">Mulai Sewa Mobil</a>
+            <a href="#" class="shadow-lg"
+              ><span data-attr="Sewa">Sewa</span
+              ><span data-attr="Sekarang">Sekarang</span></a
+            >
           </div>
         </div>
       </div>
